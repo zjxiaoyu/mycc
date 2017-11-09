@@ -1,0 +1,36 @@
+<layout name="layout" />
+
+
+<!-- 商品列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>分类名称</th>
+                <th>操作</th>
+            </tr>
+                <?php foreach($data as $k=>$v) { ?>
+            <tr>
+                <td ><?php echo str_repeat('-----/',$v['level']).$v['cate_name']; ?></td>
+                <td align="center" >
+                    <a href="<?php echo U('edit?id='.$v['id'])?>">编辑</a>
+                    <a onclick="return confirm('确认删除吗?');" href="<?php echo U('delete?id='.$v['id'])?>">删除</a>
+                </td>
+            </tr>
+             <?php  } ?>
+        </table>
+          <tr>
+              <td  nowrap="true" colspan="7">
+                  <!-- 分页开始 -->
+                  <div id="page-table" cellspacing="0" align="right">
+                      <?php echo $show?>
+                  </div>
+                  <!-- 分页结束 -->
+              </td>
+
+          </tr>
+
+    </div>
+
+</form>
+

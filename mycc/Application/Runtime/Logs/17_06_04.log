@@ -1,0 +1,1975 @@
+[ 2017-06-04T16:23:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002540s ]
+
+[ 2017-06-04T16:23:37+08:00 ] 127.0.0.1 /admin/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002049s ]
+
+[ 2017-06-04T16:23:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.005084s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.001340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined variable: cat_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 22 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 27 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002157s ]
+
+[ 2017-06-04T16:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2017-06-04T16:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001132s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined variable: cat_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 22 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 27 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002224s ]
+
+[ 2017-06-04T16:23:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005974s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2017-06-04T16:23:39+08:00 ] 127.0.0.1 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004029s ]
+
+[ 2017-06-04T16:23:41+08:00 ] 127.0.0.1 /admin/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-06-04T16:23:47+08:00 ] 127.0.0.1 /admin/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2017-06-04T16:23:47+08:00 ] 127.0.0.1 /admin/goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000992s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined variable: cat_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 22 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 27 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002475s ]
+
+[ 2017-06-04T16:23:52+08:00 ] 127.0.0.1 /admin/goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001280s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: cat_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 22 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 27 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-06-04T16:31:35+08:00 ] 127.0.0.1 /admin/goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001178s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-06-04T16:55:35+08:00 ] 127.0.0.1 /admin/goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001035s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-06-04T16:55:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123&fp=+&tp=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2017-06-04T16:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123+&fp=2222&tp=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000883s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-06-04T16:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++&fp=2222+&tp=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-06-04T16:55:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123+++&fp=2222++&tp=22&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001005s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-06-04T16:55:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++++&fp=2222+++&tp=22&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000903s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-06-04T16:55:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123+++++&fp=2222++++&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000859s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2017-06-04T16:56:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++++++&fp=2222&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000856s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-06-04T16:56:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=123+++++++&fp=2222+&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000974s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2017-06-04T16:56:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12&fp=2222++&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001197s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2017-06-04T16:56:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12+&fp=2222+++&tp=22&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000882s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-06-04T16:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12++&fp=2222++++&tp=22&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000939s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-06-04T16:56:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12++&fp=2222++++&tp=22&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2017-06-04T16:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12+&fp=2222+++&tp=22&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000911s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-06-04T16:58:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=12+&fp=2222+++&tp=22&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000957s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-06-04T16:58:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++++++&fp=2222&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000913s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-06-04T16:58:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++++++&fp=2222&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000872s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-06-04T16:58:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123++++++&fp=2222&tp=22&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000848s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-06-04T16:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123&fp=+&tp=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-06-04T17:14:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+123&fp=+&tp=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= ' ' )  [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-06-04T17:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF&fp=++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '  ' )  [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-06-04T17:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF+&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000898s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '   ' )  [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-06-04T17:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF++&fp=++++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000947s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '    ' )  [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-06-04T17:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF+++&fp=+++++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001045s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '     ' )  [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-06-04T17:14:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF++++&fp=++++++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '      ' )  [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-06-04T17:14:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF+++++&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000882s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' )  [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-06-04T17:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF++++++&fp=+&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000911s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= ' ' )  [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-06-04T17:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF+++++++&fp=++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000943s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '  ' )  [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-06-04T17:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' )  [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-06-04T17:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+&fp=++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001002s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '    ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.001385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-06-04T17:14:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=++&fp=+++++&tp=&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000917s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '     ' ) AND ( `is_on_sale` = '否' )  [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-06-04T17:14:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+++&fp=++++++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000955s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '      ' )  [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2017-06-04T17:14:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=++++&fp=+++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000990s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '       ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-06-04T17:14:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+++++&fp=++++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001123s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '        ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-06-04T17:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=++++++&fp=+++++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001757s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '         ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-06-04T17:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+++++++&fp=++++++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001012s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '          ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2017-06-04T17:14:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=++++++++&fp=+++++++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001049s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '           ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2017-06-04T17:14:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=+++++++++&fp=++++++++++++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000928s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '            ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-06-04T17:16:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000944s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' )  [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-06-04T17:16:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000878s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' )  [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-06-04T17:16:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001014s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-06-04T17:16:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000842s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' ) AND ( `is_on_sale` = '否' )  [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-06-04T17:16:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000824s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2017-06-04T17:16:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000864s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '   ' )  [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-06-04T17:17:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF%E6%B3%A1&fp=+++&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000969s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '   ' )  [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-06-04T17:17:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF%E6%B3%A1&fp=+++&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000957s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%$gn%' ) AND ( `shop_price` >= '   ' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-06-04T17:17:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=11&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000920s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '11' )  [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-06-04T17:17:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=11&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001027s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '11' )  [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-06-04T17:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=11&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001045s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '11' )  [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-06-04T17:17:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=111&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000823s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` >= '111' )  [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-06-04T17:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000956s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' )  [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-06-04T17:17:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000910s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' ) AND ( `is_on_sale` = '是' )  [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-06-04T17:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=%E5%90%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000881s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' ) AND ( `is_on_sale` = '否' )  [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-06-04T17:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000977s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' )  [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-06-04T17:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001261s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' )  [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-06-04T17:18:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000950s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `shop_price` <= '100' )  [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-06-04T17:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001109s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 ) AND ( `shop_price` <= '100' )  [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-06-04T17:18:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=100&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000934s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 ) AND ( `shop_price` <= '100' )  [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-06-04T17:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000852s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-06-04T17:18:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000895s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-06-04T17:18:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000986s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-06-04T17:18:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000917s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-06-04T17:18:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000956s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2017-06-04T17:18:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000972s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-06-04T17:18:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001125s ]
+NOTIC: [8] Use of undefined constant “ - assumed '“' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant ” - assumed '”' D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2] Division by zero D:\wamp64\www\mycc\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE 0 )  [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 41 行.
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-06-04T17:18:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=&ios=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000847s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `is_on_sale` = '是' )  [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-06-04T17:18:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `jxshop_goods`  [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-06-04T17:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=yu&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.001013s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%yu%' )  [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2017-06-04T17:29:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?gn=%E7%81%AF&fp=&tp=&ios=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mycc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `jxshop_goods` [ RunTime:0.000977s ]
+SQL: SELECT * FROM `jxshop_goods` WHERE ( `goods_name` LIKE '%灯%' )  [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: showPage D:\wamp64\www\mycc\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
